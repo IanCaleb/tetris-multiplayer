@@ -1,0 +1,25 @@
+{
+  "name": "tetris-multiplayer",
+  "version": "1.0.0",
+  "description": "Este é um projeto experimental de **Tetris multiplayer** jogado através de **celulares como controles** conectados a um **monitor principal**.  \r Cada jogador escaneia um **QR Code** que o leva a uma página de controle no celular, e seus comandos são enviados em tempo real para o jogo exibido no navegador do computador.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanCaleb/tetris-multiplayer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IanCaleb/tetris-multiplayer/issues"
+  },
+  "homepage": "https://github.com/IanCaleb/tetris-multiplayer#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
