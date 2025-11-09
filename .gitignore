@@ -1,1 +1,49 @@
-/node_modeles
+# Dependências
+/node_modules
+/.pnp
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diretórios de build
+/dist
+/build
+/out
+/.next
+/.nuxt
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache
+.tmp
+.temp
+
+# Testes
+/coverage
+/.nyc_output
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outras dependências ou artefatos
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
